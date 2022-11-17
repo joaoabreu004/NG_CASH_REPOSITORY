@@ -1,0 +1,16 @@
+section{
+    padding: 4em;
+    .main_section{
+        height: 70vh;
+        display: flex;
+        justify-content: space-around;
+        .main_about{
+            line-height: 0.9;
+        }
+    }
+    img{
+        width: 50vh;
+        height: 50vh;
+        
+    }
+}

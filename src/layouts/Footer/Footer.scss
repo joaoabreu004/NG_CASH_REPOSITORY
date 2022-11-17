@@ -1,0 +1,14 @@
+@import '../../styles/abstracts.scss'; 
+
+footer{
+    background-color: $corPrimaria;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .copy_right{
+        color: #fbfbff;
+        font-weight: bold;
+        align-items: center;
+        
+    }
+}
