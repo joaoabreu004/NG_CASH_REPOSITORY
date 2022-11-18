@@ -1,6 +1,8 @@
 const SignIn = () => {
-    return(
-        <div>SignIn</div>
+    return (
+        <section className="section_singIn">
+            <h2>REGISTRE-SE AGORA</h2>
+        </section>
     )
 
 }

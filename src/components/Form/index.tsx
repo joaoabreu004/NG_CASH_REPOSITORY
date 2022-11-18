@@ -1,5 +1,6 @@
 import "./Form.scss";
 import{ FaRegTimesCircle, FaCheckCircle} from 'react-icons/fa'
+import LinkButton from "../LinkButton";
 
 const Form = () => {
   return (
@@ -19,7 +20,7 @@ const Form = () => {
         <div>
           <button type="submit">Entrar</button>
         </div>
-        <p>NÃO TEM CADASTRO? CADASTRE-SE</p>
+        <LinkButton to='/singin' text="Não tem cadastro? Cadastre-se"/>
       </form>
     </div>
   );
