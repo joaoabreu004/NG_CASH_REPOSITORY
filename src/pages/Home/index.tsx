@@ -1,4 +1,6 @@
-import Form from "../../components/Form";
+import ButtonSubmit from "../../components/ButtonSubmit";
+import Input from "../../components/Input";
+import LinkButton from "../../components/LinkButton";
 import "./Home.scss";
 
 const Home = () => {
@@ -22,7 +24,13 @@ const Home = () => {
             alt="home2_ng"
           />
         </div>
-        <Form />
+        <form method="post">
+          <h2>LOGIN</h2>
+          <Input name="username" label="Username" placeholder="Insira seu user" type="text"/>
+          <Input name="password" label="Password" placeholder="Insira sua senha" type="password"/>
+          <ButtonSubmit text="ENTRAR"/>
+          <LinkButton to="/singin" text="Não tem cadastro? Cadastre-se"/>
+        </form>
       </div>
       <div></div>
     </section>

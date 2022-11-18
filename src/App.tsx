@@ -1,4 +1,3 @@
-import Form from "./components/Form"
 import Footer from "./layouts/Footer"
 import NavBar from "./layouts/NavBar"
 import Home from "./pages/Home"
